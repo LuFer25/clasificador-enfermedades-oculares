@@ -83,30 +83,51 @@ def predict_with_pipeline(pipeline, image_input):
 # HEADER
 # =========================
 st.markdown("""
-    <div class="main-card">
-        
-        <p style="text-align:center; font-size:22px; color:#F4F0FD; margin-bottom:5px;">
-            <strong>UNIVERSIDAD AUTÓNOMA DE CHIHUAHUA</strong>
-        </p>
+<style>
+.main-card {
+    background: linear-gradient(135deg, #4B2E83, #6A4FB3);
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+}
 
-        <p style="text-align:center; font-size:18px; color:#D8CFF5; margin-top:0;">
-            Facultad de Ingeniería
-        </p>
+.main-card h1 {
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
 
-        <h1 style="text-align:center; margin:20px 0;">
-            👁️ Clasificador de Enfermedades Oculares
-        </h1>
+.main-card p {
+    margin: 5px 0;
+}
+</style>
 
-        <div style="text-align:center; font-size:18px; color:#F4F0FD; line-height:1.8;">
-            <p><strong>Materia:</strong> Data Science</p>
-            <p><strong>Asesor:</strong> Olanda Prieto Ordaz</p>
-            <p><strong>Alumno:</strong> Luisa Fernanda Hernández Hernández</p>
-            <p><strong>Matrícula:</strong> 368068</p>
-        </div>
+<div class="main-card">
+    
+    <p style="text-align:center; font-size:22px; color:#F4F0FD;">
+        <strong>UNIVERSIDAD AUTÓNOMA DE CHIHUAHUA</strong>
+    </p>
 
+    <p style="text-align:center; font-size:18px; color:#D8CFF5;">
+        Facultad de Ingeniería
+    </p>
+
+    <h1>
+        👁️ Clasificador de Enfermedades Oculares
+    </h1>
+
+    <div style="text-align:center; font-size:18px; color:#F4F0FD; line-height:1.8;">
+        <p><strong>Materia:</strong> Data Science</p>
+        <p><strong>Asesor:</strong> Olanda Prieto Ordaz</p>
+        <p><strong>Alumno:</strong> Luisa Fernanda Hernández Hernández</p>
+        <p><strong>Matrícula:</strong> 368068</p>
     </div>
-""", unsafe_allow_html=True)
 
+</div>
+""", unsafe_allow_html=True)
 # =========================
 # COMPONENTE DE CARGA
 # =========================
