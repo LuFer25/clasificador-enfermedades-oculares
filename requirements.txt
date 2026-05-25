@@ -8,3 +8,5 @@ pillow
 joblib
 dill
 matplotlib
+scikeras
+tensorflow
