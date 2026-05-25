@@ -83,28 +83,28 @@ def predict_with_pipeline(pipeline, image_input):
 # HEADER
 # =========================
 st.markdown("""
-<div class="main-card">
-    
-    <p style="text-align:center; font-size:22px; color:#F4F0FD; margin-bottom:5px;">
-        <strong>UNIVERSIDAD AUTÓNOMA DE CHIHUAHUA</strong>
-    </p>
+    <div class="main-card">
+        
+        <p style="text-align:center; font-size:22px; color:#F4F0FD; margin-bottom:5px;">
+            <strong>UNIVERSIDAD AUTÓNOMA DE CHIHUAHUA</strong>
+        </p>
 
-    <p style="text-align:center; font-size:18px; color:#D8CFF5; margin-top:0;">
-        Facultad de Ingeniería
-    </p>
+        <p style="text-align:center; font-size:18px; color:#D8CFF5; margin-top:0;">
+            Facultad de Ingeniería
+        </p>
 
-    <h1 style="text-align:center; margin:20px 0;">
-        👁️ Clasificador de Enfermedades Oculares
-    </h1>
+        <h1 style="text-align:center; margin:20px 0;">
+            👁️ Clasificador de Enfermedades Oculares
+        </h1>
 
-    <div style="text-align:center; font-size:18px; color:#F4F0FD; line-height:1.8;">
-        <p><strong>Materia:</strong> Data Science</p>
-        <p><strong>Asesor:</strong> Olanda Prieto Ordaz</p>
-        <p><strong>Alumno:</strong> Luisa Fernanda Hernández Hernández</p>
-        <p><strong>Matrícula:</strong> 368068</p>
+        <div style="text-align:center; font-size:18px; color:#F4F0FD; line-height:1.8;">
+            <p><strong>Materia:</strong> Data Science</p>
+            <p><strong>Asesor:</strong> Olanda Prieto Ordaz</p>
+            <p><strong>Alumno:</strong> Luisa Fernanda Hernández Hernández</p>
+            <p><strong>Matrícula:</strong> 368068</p>
+        </div>
+
     </div>
-
-</div>
 """, unsafe_allow_html=True)
 
 # =========================
