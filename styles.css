@@ -1,0 +1,102 @@
+/* CONFIGURACIÓN GENERAL DE LA APP */
+.stApp {
+    background-color: #F4F0FD; /* El tono más claro para el fondo limpio */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* HEADER PRINCIPAL (MAIN CARD) */
+.main-card {
+    background: linear-gradient(
+        135deg,
+        #FCCDB7 0%,  /* Pastel durazno */
+        #F8B9BC 15%, /* Pastel rosa */
+        #EDAACA 35%, /* Pastel rosa */
+        #C8B8DB 75%, /* Pastel rosa */
+        #A7C6E9 100% /* Pastel azul */
+    );
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0px 8px 24px rgba(200, 184, 219, 0.3); /* Sombra suave con tono lila */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* TÍTULOS Y SUBTÍTULOS */
+h1 {
+    color: #ffffff !important; /* Blanco para que contraste hermoso sobre el degradado */
+    font-size: 42px;
+    font-weight: 800;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15); /* Sombra sutil para legibilidad */
+    margin-bottom: 10px;
+}
+
+h2, h3, [data-testid="stMarkdownContainer"] h2, [data-testid="stMarkdownContainer"] h3 {
+    color: #C8B8DB !important; /* Lila como color de jerarquía para títulos */
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+/* TARJETAS DE PREDICCIÓN FINAL */
+.prediction-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    border: 2px solid #C8B8DB; /* Borde lila suave */
+    box-shadow: 0px 6px 15px rgba(200, 184, 219, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-height: 200px;
+}
+
+/* Efecto hover interactivo para las tarjetas */
+.prediction-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(248, 185, 188, 0.4); /* Brillo sutil rosa */
+    border-color: #F8B9BC;
+}
+
+.prediction-title {
+    color: #A7C6E9; /* Azul pastel para identificar los modelos */
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.prediction-class {
+    color: #EDAACA; /* Rosa fuerte/orquídea para resaltar el diagnóstico */
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.prediction-prob {
+    color: #C8B8DB; /* Lila para el porcentaje */
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* CONTENEDOR PARA SUBIR ARCHIVOS (FILE UPLOADER) */
+section[data-testid="stFileUploader"] {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 25px;
+    border: 2px dashed #A7C6E9; /* Líneas discontinuas en azul pastel */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.02);
+}
+
+/* Mejoras visuales a los textos dentro del uploader */
+section[data-testid="stFileUploader"] label {
+    color: #C8B8DB !important;
+    font-weight: 600 !important;
+}
+
+/* TABLAS Y DATAFRAMES */
+[data-testid="stDataFrame"] {
+    background-color: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(200, 184, 219, 0.15);
+    border: 1px solid #F4F0FD;
+}
