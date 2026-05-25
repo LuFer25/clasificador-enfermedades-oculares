@@ -84,25 +84,20 @@ def predict_with_pipeline(pipeline, image_input):
 # =========================
 st.markdown("""
 <div class="main-card">
-
-    <p style="text-align:center; font-size:20px; color:#F4F0FD;">
-        <strong>UNIVERSIDAD AUTÓNOMA DE CHIHUAHUA</strong><br>
+    <p style="text-align:center; font-size:30px; color:#fff; font-weight:bold;">
+        UNIVERSIDAD AUTÓNOMA DE CHIHUAHUA <br>
         Facultad de Ingeniería
     </p>
-
-    <h1 style="text-align:center;">
-        👁️ Clasificador de Enfermedades Oculares
-    </h1>
-
-    <p style="text-align:center; font-size:20px; color:#F4F0FD; line-height:1.8;">
-        <strong>Materia:</strong> Data Science<br>
-        <strong>Asesor:</strong> Olanda Prieto Ordaz<br>
-        <strong>Nombre del alumno:</strong> Luisa Fernanda Hernández Hernández<br>
-        <strong>Matrícula:</strong> 368068
+    <h1>Clasificador de Enfermedades Oculares</h1>
+    <p style="text-align:center; font-size:20px; color:#F4F0FD;">
+        Materia: Data Science <br>
+        Asesor: Olanda Prieto Ordaz <br>
+        Nombre del alumno: Luisa Fernanda Hernández Hernández <br>
+        Matrícula: 368068 
     </p>
-
 </div>
 """, unsafe_allow_html=True)
+
 # =========================
 # COMPONENTE DE CARGA
 # =========================
