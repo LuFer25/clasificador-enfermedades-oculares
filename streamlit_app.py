@@ -84,9 +84,19 @@ def predict_with_pipeline(pipeline, image_input):
 # =========================
 st.markdown("""
 <div class="main-card">
+    <p style="text-align:center; font-size:20px; color:#F4F0FD;">
+        UNIVERSIDAD AUTÓNOMA DE CHIHUAHUA
+        Facultad de Ingeniería
+    </p>
     <h1>👁️ Clasificador de Enfermedades Oculares</h1>
     <p style="text-align:center; font-size:20px; color:#F4F0FD;">
-        Sube una imagen retinal y compara los resultados obtenidos simultáneamente con tus 4 modelos entrenados.
+        Materia: Data Science
+
+Asesor: Olanda Prieto Ordaz
+
+Nombre del alumno: Luisa Fernanda Hernández Hernández
+
+Matrícula: 368068
     </p>
 </div>
 """, unsafe_allow_html=True)
